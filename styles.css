@@ -6,6 +6,9 @@ body section {
 
 }
 
+/* .navbar {
+  padding: 0 auto;
+} */
 
 /* .title {
   text-align: left;
@@ -26,7 +29,7 @@ h1 {
   font-family: 'Waiting for the Sunrise', cursive;
   font-size: 3rem;
 
-  padding-top: 6.25rem;
+  padding-top: 5rem;
 }
 
 
@@ -44,19 +47,13 @@ h1 {
   padding: 10px 0 20px;
 }
 
-.bottom-container {
-    font-size: calc(0.75em + 1vmin);   
-    text-align: center;
-    background-color: #1b242f;
-    padding: 70px 0 20px;
-    color: #fa7d09;
-    font-family: 'Julius Sans One', sans-serif;
-    
-}
 
+
+ 
 
 h2 {
 font-family: 'Julius Sans One', sans-serif;
+font-weight: bolder;
 }
 
 
@@ -115,15 +112,17 @@ h3 {
   font-weight: bolder;
   margin: auto 10px;
   text-decoration: none;
+  font-size: 1.2rem;
  
 }
 
 
 .footer-link:hover {
   color:#eaf6f6;
+  text-decoration: none;
 }
 .media {
-  font-size: 1.4rem;
+  
  text-align: center;
 
 }
@@ -131,4 +130,14 @@ h3 {
 .myname {
   font-size: 1rem;
   padding: 20px 0;
+}
+.bottom-container {
+  font-size: calc(0.75em + 1vmin);   
+  text-align: center;
+  background-color: #1b242f;
+  padding: 80px 0;
+  color: #fa7d09;
+  font-family: 'Julius Sans One', sans-serif;
+  
+  
 }
